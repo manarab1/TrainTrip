@@ -10,8 +10,16 @@ public class User {
     private String lastName;
     private String email;
 
+    public User(Long userId, String firstName) {
+        this.userId = userId;
+        this.firstName = firstName;
+
+    }
+
     public User() {
     }
+
+
 
     public Long getUserId() {
         return userId;

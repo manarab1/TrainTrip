@@ -11,7 +11,6 @@ public class Booking {
     private Customer user;
 
     @ManyToOne
-    @JoinColumn(name = "train_trip_id")
     private TrainTrip trainTrip;
 
     private int numberOfTickets;

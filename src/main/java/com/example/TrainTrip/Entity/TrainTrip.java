@@ -4,22 +4,25 @@ import jakarta.persistence.*;
 @Entity
 public class TrainTrip {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tripId;
+    private Long id;
 
     private String destination;
     private String departureTime;
     private int availableSeats;
 
-    public TrainTrip() {
+    public TrainTrip(String destination, String departureTime, int availableSeats) {
+        this.destination = destination;
+        this.departureTime = departureTime;
+        this.availableSeats = availableSeats;
     }
 
-    public Long getTripId() {
-        return tripId;
+
+    public Long getTrainTripId() {
+        return id;
     }
 
-    public void setTripId(Long tripId) {
-        this.tripId = tripId;
+    public void setTrainTripId(Long trainTripId) {
+        this.id = trainTripId;
     }
 
     public String getDestination() {

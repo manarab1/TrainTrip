@@ -7,7 +7,7 @@ import java.util.List;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long customerId;
+    private Long id;
     private String firstName;
     private String lastName;
     private String email;
@@ -27,17 +27,17 @@ public class Customer {
             joinColumns = @JoinColumn(name = "customer_id"),
             inverseJoinColumns = @JoinColumn(name = "traintrip_id")
     )
-    private List<TrainTrip> trainTrips;
+   private List<TrainTrip> trainTrips;
 
     public Customer() {
     }
 
-    public Long getCustomerId() {
-        return customerId;
+    public Long getId() {
+        return id;
     }
 
     public void setCustomerId(Long customerId) {
-        this.customerId = customerId;
+        this.id = customerId;
     }
 
     public String getFirstName() {

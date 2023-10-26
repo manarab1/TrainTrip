@@ -7,9 +7,8 @@ public class EconomyTicket extends Ticket {
     private String baggageStorageInfo;
     private String freeMeal;
 
-    public EconomyTicket(String baggageStorageInfo, String freeMeal) {
-        this.baggageStorageInfo = baggageStorageInfo;
-        this.freeMeal = freeMeal;
+    public EconomyTicket(Long ticketId, Booking booking, Customer customer) {
+        super(ticketId, booking, customer);
     }
 
     public String getBaggageStorageInfo() {

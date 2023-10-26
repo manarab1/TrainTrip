@@ -8,11 +8,11 @@ public class FirstClassTicket extends Ticket {
     private boolean personalConcierge;
     private boolean luxuryLoungeAccess;
 
-    public FirstClassTicket(boolean complimentaryMeals, boolean personalConcierge, boolean luxuryLoungeAccess) {
-        this.complimentaryMeals = complimentaryMeals;
-        this.personalConcierge = personalConcierge;
-        this.luxuryLoungeAccess = luxuryLoungeAccess;
+    public FirstClassTicket(Long ticketId, Booking booking, Customer customer) {
+        super(ticketId, booking, customer);
     }
+
+
 
     public boolean isComplimentaryMeals() {
         return complimentaryMeals;
