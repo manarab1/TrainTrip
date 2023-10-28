@@ -8,7 +8,8 @@ The Train Ticket Reservation System allows users to search for available train t
 ## Class Diagram
 
 To better understand the structure of this system, here is a simplified class diagram:
-![Class Diagram](<img width="469" alt="Class Diagram" src="https://github.com/manarab1/TrainTrip/assets/146085132/a36e640f-2329-4c43-aa72-39296fac270b">)
+
+![Class Diagram]<img width="469" alt="Class Diagram" src="https://github.com/manarab1/TrainTrip/assets/146085132/a36e640f-2329-4c43-aa72-39296fac270b">
 
 
 
