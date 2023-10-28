@@ -44,10 +44,10 @@ To better understand the structure of this system, here is a simplified class di
 
 ## Extra Links
 
-![My Trello](https://trello.com/b/TWLfCfJL/my-trello-board)
+[My Trello](https://trello.com/b/TWLfCfJL/my-trello-board)
 
 
-![My presentation](https://www.canva.com/design/DAFyVyXwP6g/h6TB_alIESJVsssdw2EnfQ/edit?utm_content=DAFyVyXwP6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[My presentation](https://www.canva.com/design/DAFyVyXwP6g/h6TB_alIESJVsssdw2EnfQ/edit?utm_content=DAFyVyXwP6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
