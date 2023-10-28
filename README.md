@@ -45,10 +45,10 @@ To better understand the structure of this system, here is a simplified class di
 
 ## Extra Links
 
-- [Trello Board  https://trello.com/b/TWLfCfJL/my-trello-board]
+- Trello Board -(https://trello.com/b/TWLfCfJL/my-trello-board)
 
-- [Presentation Slides]
-  https://www.canva.com/design/DAFyVyXwP6g/h6TB_alIESJVsssdw2EnfQ/edit?utm_content=DAFyVyXwP6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Presentation Slides-
+  [https://www.canva.com/design/DAFyVyXwP6g/h6TB_alIESJVsssdw2EnfQ/edit?utm_content=DAFyVyXwP6g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
 
 ## Future Work
 
